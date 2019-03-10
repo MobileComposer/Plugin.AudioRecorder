@@ -233,3 +233,6 @@ Samples/Native/AudioRecord.UWP/AudioRecord.UWP.nuget.props
 Samples/Native/AudioRecord.UWP/project.lock.json
 Samples/Native/AudioRecord.UWP/project.lock.json
 Plugin.AudioRecorder.UWP/Plugin.AudioRecorder.UWP.nuget.props
+
+#mfractor
+*.mfractor

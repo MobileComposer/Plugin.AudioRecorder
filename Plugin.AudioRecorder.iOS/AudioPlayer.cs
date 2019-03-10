@@ -110,5 +110,10 @@ namespace Plugin.AudioRecorder
 		{
 			audioPlayer?.Play ();
 		}
+
+		public void Seek(double seconds)
+		{
+			audioPlayer.CurrentTime = seconds;
+		}
 	}
 }

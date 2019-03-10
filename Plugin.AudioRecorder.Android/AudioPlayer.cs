@@ -54,5 +54,12 @@ namespace Plugin.AudioRecorder
 		{
 			mediaPlayer?.Start ();
 		}
+
+		public void Seek(double seconds)
+		{
+			int seek = ((int)Math.Ceiling(seconds)) * 1000;
+
+			mediaPlayer?.SeekTo(seek);
+		}
 	}
 }

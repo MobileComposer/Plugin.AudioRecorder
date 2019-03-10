@@ -9,5 +9,7 @@ namespace Plugin.AudioRecorder
 		public void Pause () => throw new NotImplementedException ();
 
 		public void Play () => throw new NotImplementedException ();
+
+		public void Seek(double seconds) => throw new NotImplementedException();
 	}
 }
